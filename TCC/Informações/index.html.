@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Informações</title>
+</head>
+<body>
+    <img src="img/cal_jlb.png" alt="cal_jlb" class="jlb">
+    <main class="container">
+        <img src="img/cal_logo.png" alt="cal_logo" class="cal_logo">
+        <form>
+            <h1>Titulo Data</h1>
+            <h3>AAAA/MM/DD</h3>
+            <div class="info_map">
+                <div class="informations">
+                    <div class="hour">
+                        <h1>Horario:</h1>
+                        <h2>*HH:HH*</h2>
+                    </div>
+                    <div class="description">
+                        <h1>Descrição:</h1>
+                        <h2>*descrição*</h2>
+                    </div>
+                    <div class="special_appearances">
+                        <h1>Participações Especiais:</h1>
+                        <h2>*participações especiais*</h2>
+                    </div>
+                </div>
+                <div class="local_map">
+                    <img src="img/api_maps.png" alt="api_maps" class="map">
+                    <div class="location">
+                        <h1>Localização:</h1>
+                        <h2>*localização*</h2>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
